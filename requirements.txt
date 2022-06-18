@@ -6,3 +6,4 @@ pytorch_lightning
 # -e git://github.com/PyTorchLightning/pytorch-lightning.git#egg=pytorch_lightning
 #-e git://github.com/PyTorchLightning/pytorch-lightning.git#egg=pytorch_lightning
 #-e git://github.com/ray-project/ray_lightning#egg=ray_lightning
+ray>=1.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
